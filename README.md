@@ -15,6 +15,8 @@
 * In the console, `let myContract = await (await ethers.getContractFactory(CONTRACT_NAME)).attach(PROXY_CONTRACT_ADDRESS);`
 * Then execute functions to test (ex: `getVal1()`)
 * After upgrade, execute new functions from V2 contract.
+* When you upgrade your contract, you can see that the contract has been upgraded via Etherscan. Check "Transactions" and "Events".
+<img src="screenshots/etherscan-upgraded.png" />
 
 # Sample Hardhat Project
 

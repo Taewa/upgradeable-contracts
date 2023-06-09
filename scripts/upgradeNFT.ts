@@ -6,7 +6,7 @@ async function main() {
   console.log("Upgrading MyNFTContract!!!");
   
   await upgrades.upgradeProxy(
-    "0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82", // deployed proxy address (e.g.: V1)
+    "0x9804c7883Aa5bc1C3AEC842D1006406982d43636", // deployed proxy address (e.g.: V1)
     MyNFTContractV2
   );
 
